@@ -2,11 +2,11 @@
 
 ![](https://latex.codecogs.com/svg.image?C_{M\times&space;N}=A_{M\times&space;K}\times&space;B_{K\times&space;N})
 
-对于矩阵 `C` 中 紫色`tile` ![](https://latex.codecogs.com/svg.image?32\times32) ，需要矩阵 `A` 黄色区域 $32\times K$ 和矩阵`B` 红色区域 $K\times 32$ 
+对于矩阵 `C` 中 紫色`tile` ![](https://latex.codecogs.com/svg.image?32\times32) ，需要矩阵 `A` 黄色区域 ![](https://latex.codecogs.com/svg.image?32\times32) 和矩阵`B` 红色区域 $K\times 32$ 
 
 <img src="./images/image1.png" title="" alt="" data-align="center">
 
-矩阵`A` 中黄色区域划分成 ![](https://latex.codecogs.com/svg.image?BLOCK\_SIZE\_M\times&space;BLOCK\_SIZE\_K=32\times&space;32)
+矩阵`A` 中黄色区域划分成 ![](https://latex.codecogs.com/svg.image?BLOCK\\_SIZE\_M\times&space;BLOCK\_SIZE\_K=32\times&space;32)
 
 矩阵`B` 中红色区域划分成 ![](https://latex.codecogs.com/svg.image?BLOCK\_SIZE\_K\times&space;BLOCK\_SIZE\_N=32\times&space;32)
 
