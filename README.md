@@ -1,6 +1,6 @@
 ## 矩阵相乘
 
-$C_{M\times N}=A_{M\times K}\times B_{K\times N}$
+$$C_{M\times N}=A_{M\times K}\times B_{K\times N}$$
 
 对于矩阵 `C` 中 紫色`tile` $32\times32$ ，需要矩阵 `A` 黄色区域 $32\times K$ 和矩阵`B` 红色区域 $K\times 32$ 
 
