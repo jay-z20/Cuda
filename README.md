@@ -2,7 +2,7 @@
 
 ![](https://latex.codecogs.com/svg.image?C_{M\times&space;N}=A_{M\times&space;K}\times&space;B_{K\times&space;N})
 
-对于矩阵 `C` 中 紫色`tile` ![](https://latex.codecogs.com/svg.image?32\times32) ，需要矩阵 `A` 黄色区域 ![](https://latex.codecogs.com/svg.image?32\times K) 和矩阵`B` 红色区域 ![](https://latex.codecogs.com/svg.image?K\times32)
+对于矩阵 `C` 中 紫色`tile` ![](https://latex.codecogs.com/svg.image?32\times32) ，需要矩阵 `A` 黄色区域 ![](https://latex.codecogs.com/svg.image?32\times&space;K) 和矩阵`B` 红色区域 ![](https://latex.codecogs.com/svg.image?K\times32)
 
 <img src="./images/image1.png" title="" alt="" data-align="center">
 
