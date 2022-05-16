@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.cu": "cpp",
+        "*.cuh": "cpp",
+        "chrono": "cpp",
+        "xiosbase": "cpp",
+        "ios": "cpp",
+        "xlocale": "cpp",
+        "__locale": "cpp",
+        "cstdint": "cpp"
+    }
+}
