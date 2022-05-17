@@ -74,9 +74,7 @@ __global__ void matrixMul(float* A,float* B,float* C,const int M,
 
     const int lane_id = tid % 32;
     const int warp_id = tid / 32;
-    // tid     0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ... 31
-    // x[0-7]  0 0 1 1 2 2 3 3 4 4 5  5  6  6  7  7  0  ... 7
-    // y[0-3]  0 1 0 1 0 1 0 1 0 1 0  1  0  1  0  1  2  ... 3
+        
     // 4x8 threads each warp for FFMA
     const int mma_tid_x = (warp_id % 2) * 64 + (lane_id / 2) % 8 * 4;
     const int mma_tid_y = (warp_id / 2) * 32 +  (lane_id / 16) * 8 + (lane_id % 2) * 4;
