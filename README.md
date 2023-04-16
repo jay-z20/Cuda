@@ -13,7 +13,9 @@
 
 ## [双调排序](./sort/)
 
-![](../images/sort.png)
+网上代码资源有点乱，所以自己写了一个
+
+![](./images/sort.png)
 
 
 
